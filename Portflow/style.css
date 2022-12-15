@@ -1,0 +1,112 @@
+@media(min-width) and (max-width: 500px){
+
+  .titleHeader,.menu,.logo,.frases,.faleconosco,.imgContainer.imgContainer:hover,.containerImg,.Sociais,.list,.li{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .titleHeader{
+    position: absolute;
+    font-family: Montserrat;
+    left: 5vw;
+    margin-top: 7vh;
+
+    
+  }
+
+  .menu{
+    position: relative;
+    font-family: Montserrat;
+    left: 50vw;
+    margin-top: 7vh;
+    justify-content: space-around;
+    display:inline-block; 
+      
+   
+    
+    
+  }
+
+  .logo{
+    position: relative;
+    margin-top: 6vh;
+    width: 98.7vw;
+   
+  }
+
+  .frases{
+    position: relative;
+    bottom: 52vh;
+    font-family: Montserrat;
+    font-size: 8vh;
+    left: 6vw;
+    display: inline-block;
+    color: #ffffff;
+    
+    
+  }
+
+  .faleconosco{
+    position: absolute;
+    bottom:30vh;
+    font-family: Montserrat;
+    font-size:Light;
+    left: 6vw;
+    color: #ffffff;
+  
+    
+  }
+
+  .containerImg{
+    margin: 3rem;
+  
+
+  }
+
+  .imgContainer{
+    width: 49.8vh;
+  }
+
+
+.imgContainer:hover {
+  transform: scale(105%);
+
+}
+
+.Sociais{
+  position: relative;
+  background-color: #e4dfdf;
+  margin: 3rem;
+  top: 1vh;
+     
+
+}
+
+.list {
+  position: relative;
+  width: 60vh;
+  height: 12vh;
+  display: flex;
+  justify-content: space-evenly;
+  top: 3vh;  
+  
+}
+
+li {
+  list-style-type: none;
+}
+
+.copyright{
+  position: relative;
+  width: 5vh;
+  left: 31vw;
+  bottom: 14vh;
+}
